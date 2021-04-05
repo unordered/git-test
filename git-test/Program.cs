@@ -17,6 +17,12 @@ namespace git_test
         {
             return x - y;
         }
+
+        public static int Mux(int x, int y )
+        {
+            return x * y;
+
+        }
         static void Main(string[] args)
         {
             //git test 1
@@ -30,6 +36,8 @@ namespace git_test
 
             Console.WriteLine($"SUB(...):{-sum}");
 
+
+            Console.WriteLine($"SUB(...):{-sum*sum}");
         }
     }
 }
