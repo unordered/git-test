@@ -12,6 +12,11 @@ namespace git_test
         {
             return x + y;
         }
+
+        public static int Sub(int x, int y)
+        {
+            return x - y;
+        }
         static void Main(string[] args)
         {
             //git test 1
@@ -21,6 +26,9 @@ namespace git_test
                 sum += Sum(i, i + 1);
             }
 
+            Console.WriteLine($"SUM(...):{sum}");
+
+            Console.WriteLine($"SUB(...):{-sum}");
 
         }
     }
